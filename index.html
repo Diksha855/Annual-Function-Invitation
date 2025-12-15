@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annual Function Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" autoplay muted loop>
+<source src="om shanti om.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>  
+
+<canvas id="snow"></canvas>
+
+<!-- PAGE 1 WELCOME PAGE -->
+<div class="page active" id="page1">
+  <div class="card">
+    <div class="logo">
+      <img src="1.jpg" alt="School Logo" />
+    </div>
+    <h2 style="font-size: 25px;">Welcome to</h2><br>
+    <h1>Annual Function 2025</h1><br>
+    <p>Experience the magic of <br> winter <br> celebrations</p><br>
+    <button onclick="nextPage(2)">Open Invitation ❄️</button>
+  </div>
+</div>
+
+<!-- PAGE 2 INVITATION THEME -->
+<div class="page" id="page2">
+  <div class="card">
+    <h1 style="font-size: 42px;";>Invitation Theme</h1style><br>
+    <h1>Day 1</h1>
+    <p>
+      ✨ <strong>The fairies of IIS warmly welcomes you
+      into the magical realm of fairy dust</strong> ❄️✨
+    </p><br>
+    <h1>Day 2</h1>
+    <p>
+       <strong>🫡🪖 Saluting the brave <br>🎖️🛡️ Celebrating the bold</strong>
+    </p><br>
+    <p style="margin-top:15px;">
+      Join us for a winter-themed celebration filled with joy,
+      creativity, and memorable performances.
+    </p>
+    <button onclick="nextPage(3)">View Schedule ➜</button>
+  </div>
+</div>
+
+<!-- PAGE 3 SCHEDULE DAY 1 -->
+<div class="page" id="page3">
+  <div class="card">
+    <h1>Schedule – Day 1</h1><br>
+    <p style="margin-top:10px;">
+      <strong style="font-size: 25px;">📅 23rd December</strong><br/><br>
+      • Frozen Carnival<br/>
+      11:30 AM – 12:30 PM (1st Event)<br/><br>
+      • Food Court<br/>
+      1:00 PM onwards<br/><br>
+      • Pre-Primary Annual<br/>
+      4:00 PM – 7:00 PM
+    </p><br>
+    <button onclick="nextPage(4)">Agenda Day 1</button>
+  </div>
+</div>
+
+<!-- PAGE 4 : DAY 1 AGENDA -->
+<div class="page" id="page4">
+  <div class="card">
+    <h1>Agenda – Day 1</h1><br>
+    <p style="margin-top:10px;">
+      • Opening Prayer<br/>
+      • Welcome Address<br/>
+      • Frozen Carnival Activities<br/>
+      • Pre-Primary Performances<br/>
+      • Refreshment Break<br/>
+      • Closing Note
+    </p><br>
+    <button onclick="nextPage(5)">Next Day ➜</button>
+  </div>
+</div>
+
+<!-- PAGE 5 SCHEDULE DAY 2 -->
+<div class="page" id="page5">
+  <div class="card">
+    <h1>Schedule – Day 2</h1><br>
+    <p style="margin-top:10px;">
+      <strong style="font-size: 25px;">📅 24th December</strong><br/>
+      • Primary Annual
+    </p><br>
+    <p style="margin-top:10px;">
+      <strong style="font-size: 25px;">⏰ Time:</strong><br/>
+      • 4:00 PM – 8:00 PM
+    </p><br>
+    <button onclick="nextPage(6)">Agenda Day 2</button>
+  </div>
+</div>
+</div>
+
+<!-- PAGE 6 : AGENDA DAY 2 -->
+<div class="page" id="page6">
+  <div class="card">
+    <h1>Agenda – Day 2</h1><br>
+    <p style="margin-top:10px;">
+      • Welcome Address<br/>
+      • Lamp Lighting Ceremony<br/>
+      • Cultural Performances<br/>
+      • Address by Chief Guest<br/>
+      • Prize Distribution<br/>
+      • Vote of Thanks
+    </p><br>
+    <button onclick="nextPage(7)">Venue</button>
+  </div>
+</div>
+
+<!-- PAGE 7 : VENUE -->
+<div class="page" id="page7">
+  <div class="card">
+    <h1>Venue</h1><br>
+    <p style="margin-top:12px; line-height:1.6;">
+      <strong>The Innovative International School <br>(IIS)</strong><br/>
+      Rukmini Nagar, Khat Road,<br/>
+      Near Anand Mangal Karyalaya,<br/>
+      Bhandara, Maharashtra – 441904
+    </p><br>
+    <button onclick="nextPage(8)">Message</button>
+  </div>
+</div>
+
+<!-- PAGE 8 : MESSAGE-->
+<div class="page" id="page8">
+  <div class="card">
+    <p style="margin-top:10px; line-height:1.6;">
+      We are honoured by <br> your <br> gracious presence <br>
+      on <br> the occasion of <br> our <br> Annual Function.
+    </p><br>
+    <button onclick="nextPage(1)">Back to Start ➜</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
