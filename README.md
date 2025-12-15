@@ -56,10 +56,15 @@ This project delivers an interactive digital invitation experience using a **win
 annual-function-invitation/
 │
 ├── index.html
+|
 ├── style.css
+|
 ├── script.js
+|
 ├── music.mp3
+|
 ├── logo.png
+|
 └── README.md
 
 ---
