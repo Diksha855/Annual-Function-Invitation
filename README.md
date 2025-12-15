@@ -53,6 +53,7 @@ This project delivers an interactive digital invitation experience using a **win
 
 ## 📂 Project Structure
 
+```plaintext
 annual-function-invitation/
 │
 ├── index.html
@@ -63,7 +64,7 @@ annual-function-invitation/
 |
 ├── music.mp3
 |
-├── logo.png
+├── logo.jpg
 |
 └── README.md
 
