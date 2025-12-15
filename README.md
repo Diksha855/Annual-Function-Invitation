@@ -30,7 +30,7 @@ This project delivers an interactive digital invitation experience using a **win
 - **Schedule Pages**  
   Day-wise program schedule (Day 1, Day 2, etc.)
 
-- **Agenda Pages**
+- **Agenda Pages**  
   Day-wise program agenda (Day 1, Day 2, etc.)  
 
 - **Venue Page**
@@ -53,7 +53,7 @@ This project delivers an interactive digital invitation experience using a **win
 
 ## 📂 Project Structure
 
-```plaintext
+```
 annual-function-invitation/
 │
 ├── index.html
@@ -67,7 +67,7 @@ annual-function-invitation/
 ├── logo.jpg
 |
 └── README.md
-
+```
 ---
 
 ## 🌍 Deployment
