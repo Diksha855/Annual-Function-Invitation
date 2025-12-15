@@ -3,7 +3,9 @@
 A modern, responsive **web-based invitation website** created for an **Annual Function**.  
 This project delivers an interactive digital invitation experience using a **winter-themed design**, smooth animations, and a structured **multi-page flow**, making it ideal for schools and educational institutions.
 
+
 ---
+
 
 ## ✨ Features
 
@@ -17,7 +19,9 @@ This project delivers an interactive digital invitation experience using a **win
 - ⚡ Fast loading and lightweight
 - 🌐 Easy to host on any static hosting platform
 
+
 ---
+
 
 ## 🖼️ Pages Overview
 
@@ -33,13 +37,15 @@ This project delivers an interactive digital invitation experience using a **win
 - **Agenda Pages**  
   Day-wise program agenda (Day 1, Day 2, etc.)  
 
-- **Venue Page**
-    
+- **Venue Page**  
+  Venue where function held
 
 - **Thank You Page**  
   Closing message and acknowledgements
 
+
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +55,9 @@ This project delivers an interactive digital invitation experience using a **win
 - **JavaScript Animations**
 - **Emojis**
 
+
 ---
+
 
 ## 📂 Project Structure
 
@@ -68,7 +76,10 @@ annual-function-invitation/
 |
 └── README.md
 ```
+
+
 ---
+
 
 ## 🌍 Deployment
 
@@ -84,7 +95,9 @@ This project can be deployed  easily on:
 
 - Any static/shared hosting provider
 
+
 ---
+
 
 ## 🎯 Use Cases
 
@@ -98,7 +111,9 @@ This project can be deployed  easily on:
 
 - Online Function Invite Website
 
+
 ---
+
 
 ## 🧩 Customization Guide
 
@@ -110,21 +125,27 @@ This project can be deployed  easily on:
 
 - Add or remove schedule pages as required
 
+
 ---
+
 
 ## 🤝 Contributing
 
 Contributions are welcome!
 Fork the repository, make improvements, and submit a pull request.
 
+
 ---
+
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this project.
 
+
 ---
+
 
 ## 🙌 Acknowledgements
 
@@ -132,6 +153,8 @@ You are free to use, modify, and distribute this project.
 
 - Snow animation implemented using CSS & JavaScript
 
+
 ---
+
 
 ## END 
